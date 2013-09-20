@@ -1,0 +1,8 @@
+{application, cowboy_fun, [
+  {id, "cowboy_fun"},
+  {description, "Adds ability to use funs in cowboy middleware"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+]}.
