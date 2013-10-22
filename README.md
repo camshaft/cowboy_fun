@@ -26,5 +26,5 @@ init(Name) ->
     %% This will be executed for every request
     io:format("~p says hi~n", [Name]),
     {ok, Req, Env}
-  end
+  end.
 ```
